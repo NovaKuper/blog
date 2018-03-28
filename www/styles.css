@@ -1,11 +1,57 @@
+@font-face{
+
+font-family: 'SummerFontLight';
+
+src: url('/assets/fonts/SummerFontLight.otf');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
 body {
 	margin: 0;
 }
+section {
+	display: flex;
+	justify-content: center;
+	margin: 20px auto 0;
+}
 .top {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 70px; /* Или что угодно */
   background: #f9faff;
 }
 .top-item {
-  margin: auto;  /* Магия! */
+    /* margin: auto; */
+}
+.logo {
+	height: 61px;
+}
+.content {
+	width: 760px;
+	min-height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+.article-item {
+	display: block;
+    margin-bottom: 10px;
+    padding: 20px 0 45px;
+    border-bottom: 1px solid #d9d9d9;
+    color: #000;
+}
+.article-item .title {
+	display: block;
+	margin: 15px 0;
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 38px;
+    font-family: SummerFontLight;
+}
+.article-item .post {
+	display: flex;
 }
