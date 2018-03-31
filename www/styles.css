@@ -96,3 +96,10 @@ section {
 .search-container {
 	padding-bottom: 12px;
 }
+.bottom {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  background: #f9faff; 
+}
